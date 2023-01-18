@@ -105,10 +105,11 @@ $(document).ready(function(){
   });
 });
 
+//Function for preparing prefix-based phone numbers 
 function makePhone(input){
  return (input.charAt(0) == "6" ? 
-        "+131292" : (input.charAt(0) == "2" ? 
-          "+131247" : "+131269")) + input;
+        "+1312555" : (input.charAt(0) == "2" ? 
+          "+1312555" : "+131555")) + input.slice(-4);
 }
 
 function addAnimation(){
