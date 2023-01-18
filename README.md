@@ -1,4 +1,4 @@
 # phonebook
 
 Phone directory app
-cpuchi.github.io/phonebook
+cpuchi.github.io/PB-template
